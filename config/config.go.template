@@ -1,0 +1,14 @@
+package config
+
+type room struct {
+	Title string
+	Id    int64
+}
+
+var (
+	BotToken = "Your bot token"
+
+	Ids = []room{
+		{"test", "Your room id"},
+	}
+)
