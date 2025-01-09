@@ -88,14 +88,14 @@ func initialModel() model {
 
 	ta.ShowLineNumbers = false
 
-	vp := viewport.New(50, 5)
+	vp := viewport.New(80, 5)
 	vp.SetContent(`Welcome to the chat room!
 Type a message and press Enter to send.`)
 
 	ta.KeyMap.InsertNewline.SetEnabled(false)
 
 	items := []list.Item{
-		item{title: "Raspberry Pi's", id: "2"},
+		// item{title: "Raspberry Pi's", id: "2"},
 	}
 
 	for _, id := range chatIDs {
